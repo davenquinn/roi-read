@@ -26,8 +26,11 @@ def test_import_roi():
     fn = fixture('FRT0000CBE5.xml')
     data = list(get_regions(fn))
     assert len(data) == 20
-
     shapes = [shape(r['geometry']) for r in data]
+
+    fn = fixture('HRL0000B8C2.xml')
+    data = list(get_regions(fn))
+    assert len(data) == 8
 
 def test_rasterize():
     """
