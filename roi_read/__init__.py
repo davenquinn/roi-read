@@ -1,10 +1,16 @@
 from xml.etree import ElementTree
-from itertools import tee, izip
-from click import echo, style
 
 def pairs(iterable):
     for i in iterable:
         yield i, next(iterable)
+
+def polygon_coords(polygon):
+    e = polygon.find('Exterior')
+    r = e.find('LinearRing')
+    _ = (float(i) for i in
+        r.find('Coordinates')
+            .text.strip().split())
+    return [list(pairs(_))]
 
 def get_regions(roifile):
     """
@@ -15,18 +21,25 @@ def get_regions(roifile):
     """
     tree = ElementTree.parse(roifile)
     for region in tree.iterfind('Region'):
-        p = region.getchildren()[0].find('Polygon')
-        if p is None:
-            r = lambda x: style(x,fg='red')
-            echo(r('Area ')+region.attrib['name']+r(' is not a polygon'))
+        reg = region.getchildren()[0]
+        if reg.tag != 'GeometryDef':
             continue
-        e = p.find('Exterior')
-        r = e.find('LinearRing')
-        coords = (float(i) for i in
-            r.find('Coordinates').text.strip().split())
+
+        polygons = [i for i in reg
+                if i.tag == 'Polygon']
+
+        if len(polygons) == 1:
+            p = polygons[0]
+            geom = dict(
+                type='Polygon',
+                coordinates=polygon_coords(polygons[0]))
+        else:
+            geom = dict(
+                type='MultiPolygon',
+                coordinates=[polygon_coords(i)
+                    for i in polygons])
+
         yield dict(
             type='Feature',
-            geometry=dict(
-                type='Polygon',
-                coordinates=[list(pairs(coords))]),
+            geometry=geom,
             properties=region.attrib)
