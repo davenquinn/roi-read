@@ -15,7 +15,7 @@ def polygon_coords(polygon):
             .text.strip().split())
     return [list(pairs(_))]
 
-def extract_geometry(geometry_def):
+def extract_geometry(geometry_def, force_multi=True):
     """
     Extracts polygon(s) from geometry definition
     object.
@@ -23,7 +23,7 @@ def extract_geometry(geometry_def):
     polygons = [i for i in geometry_def
             if i.tag == 'Polygon']
 
-    if len(polygons) == 1:
+    if len(polygons) == 1 and not force_multi:
         p = polygons[0]
         return dict(
             type='Polygon',
@@ -34,7 +34,7 @@ def extract_geometry(geometry_def):
             coordinates=[polygon_coords(i)
                 for i in polygons])
 
-def extract_pixels(pixel_def):
+def extract_pixels(pixel_def, force_multi=True):
     _ = pixel_def.find('Coordinates')
     nums = (int(i) for i in _.text.strip().split())
     idxs = N.array(list(pairs(nums)))
@@ -49,7 +49,7 @@ def extract_pixels(pixel_def):
         in shapes(mask)
         if value == 1]
 
-    if len(s) == 1:
+    if len(s) == 1 and not force_multi:
         return s[0]
     else:
         return mapping(MultiPolygon([shape(i)
