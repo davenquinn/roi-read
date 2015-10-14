@@ -1,0 +1,18 @@
+from os import path
+
+from . import get_regions
+
+image_sizes = dict(
+    FRT0000CBE5=(640,480),
+    HRL0000B8C2=(320,480))
+
+
+def test_import_roi():
+    """
+    Tests that we can successfully import a ROI from
+    an ENVI 5 XML file.
+    """
+    fn = path.join(path.dirname(__file__),'..','test-fixtures','FRT0000CBE5.xml')
+    data = list(get_regions(fn))
+    assert len(data) == 20
+

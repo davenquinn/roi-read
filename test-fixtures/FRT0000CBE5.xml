@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegionsOfInterest version="1.0">
+  <Region name="ROI #1" color="255,0,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+325.10297346 171.60894774 321.43295751 170.56037176 320.64652552 165.57963582 324.57868547 164.00677184 327.46226943 161.64747588 330.34585339 162.17176387 331.13228538 167.1524998 335.06444533 169.77393977 338.47231728 173.44395572 343.19090922 179.73541164 350.00665313 184.97829157 354.72524506 191.79403548 348.69593314 194.93976343 342.92876522 189.43473951 341.09375725 183.14328359 335.85087732 177.37611567 329.5594214 175.80325169 325.10297346 171.60894774
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+213.69177494 116.55870848 216.31321491 122.3258764 216.5753589 128.87947631 226.27468677 130.71448429 229.94470272 131.50091628 230.20684672 128.09304432 224.1775348 125.73374835 221.81823883 122.0637324 219.98323086 116.03442048 218.41036688 113.15083652 216.5753589 114.9858445 213.69177494 116.55870848
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+123.25209614 103.18936465 132.95142401 106.07294862 140.55359991 107.1215246 141.6021759 103.45150865 131.64070403 99.25720471 128.49497607 97.42219673 123.25209614 103.18936465
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #2" color="0,128,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+302.55858976 69.3727891 309.89862166 69.8970771 317.23865356 71.99422907 322.2193895 73.04280505 321.6951015 70.42136509 316.71436557 66.48920514 314.3550696 64.91634116 311.73362964 65.17848516 305.44217372 67.53778113 302.55858976 69.3727891
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #3" color="0,0,255">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+513.32236295 222.46488307 510.96306699 221.41630708 508.07948302 218.27057912 504.67161107 211.19269122 503.62303508 207.52267527 505.72018706 205.1633793 509.914491 206.21195528 510.96306699 217.48414713 513.06021896 220.62987509 513.32236295 222.46488307
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #4" color="255,255,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+539.53676261 143.55954012 544.77964254 142.77310813 550.02252247 142.51096413 550.02252247 139.36523617 547.92537049 137.0059402 542.94463456 138.05451619 541.89605857 140.41381216 539.53676261 141.46238814 539.53676261 143.55954012
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #5" color="0,255,255">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+510.70092299 230.59134696 504.40946707 230.59134696 500.73945112 229.80491497 496.80729117 226.39704301 498.38015515 223.77560305 501.26373912 221.41630708 503.09874709 225.61061103 505.98233105 226.92133101 510.70092299 226.92133101 510.70092299 230.59134696
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+497.59372316 219.58129911 492.35084323 219.58129911 491.82655524 215.12485116 492.61298723 211.45483521 497.59372316 209.09553924 498.64229915 215.64913916 501.52588311 218.53272312 497.59372316 219.58129911
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #6" color="255,0,255">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+551.59538645 170.56037176 550.54681046 168.46321979 549.23609048 166.89035581 547.6632265 162.43390787 550.02252247 160.33675589 550.28466646 164.26891584 551.33324245 165.84177982 552.38181844 168.20107579 551.59538645 170.56037176
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #7" color="128,128,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+566.53759425 173.18181172 564.44044227 170.56037176 564.44044227 165.84177982 566.53759425 164.00677184 567.58617023 167.6767878 568.11045823 174.49253171 566.53759425 173.18181172
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #8" color="0,128,128">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+466.92287557 154.04529998 463.77714761 155.35601996 459.32069967 155.88030795 460.36927566 151.16171602 464.8257236 145.91883609 467.44716357 150.11314003 466.92287557 154.04529998
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+448.57279582 170.56037176 451.98066777 170.03608376 452.50495576 167.4146438 451.19423578 164.26891584 447.78636383 164.53105984 447.78636383 168.98750778 448.57279582 170.56037176
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #9" color="128,0,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+304.91788573 194.41547544 308.06361368 194.67761944 309.37433367 192.58046746 304.91788573 192.31832347 304.91788573 194.41547544
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+326.67583744 191.53189148 326.41369344 188.64830752 327.20012543 186.81329954 329.03513341 189.17259551 329.03513341 192.31832347 326.67583744 191.53189148
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+315.14150159 189.17259551 318.02508555 189.17259551 318.28722955 187.59973153 315.14150159 187.59973153 315.14150159 189.17259551
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+309.63647766 178.16254766 313.83078161 177.63825966 313.56863761 174.23038771 309.63647766 174.7546757 309.63647766 178.16254766
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #10" color="0,255,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+366.5699362 187.07421312 368.8199362 175.32421312 373.5699362 165.82421312 381.5699362 157.82421312 375.3199362 158.32421312 368.5699362 164.57421312 360.0699362 170.57421312 359.0699362 181.32421312 363.3199362 188.57421312 366.5699362 187.07421312
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #11" color="0,0,128">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+323.5699362 19.32421312 328.3199362 21.07421312 338.5699362 20.07421312 341.0699362 18.32421312 341.0699362 14.57421312 336.3199362 14.82421312 334.8199362 17.57421312 330.5699362 17.07421312 326.5699362 14.07421312 323.8199362 17.57421312 323.5699362 19.32421312
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+360.3199362 15.07421312 367.8199362 17.82421312 371.8199362 18.32421312 373.5699362 15.32421312 366.5699362 13.07421312 362.8199362 11.57421312 360.3199362 15.07421312
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #12" color="255,127,80">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+340.8199362 28.07421312 345.5699362 24.57421312 350.8199362 23.82421312 354.8199362 24.82421312 352.8199362 28.07421312 343.0699362 28.07421312 340.8199362 28.07421312
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #13" color="127,255,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+408.0699362 16.07421312 410.8199362 18.82421312 414.8199362 22.57421312 415.5699362 21.32421312 411.3199362 17.57421312 408.0699362 16.07421312
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+402.9681301 237.44226457 403.3587551 246.42663957 405.7025051 246.42663957 405.7025051 237.44226457 402.9681301 237.44226457
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+393.2025051 235.09851457 395.1556301 234.31726457 394.7650051 228.84851457 392.4212551 229.23913957 393.2025051 235.09851457
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+409.6087551 247.20788957 409.6087551 250.72351457 411.5618801 251.50476457 409.6087551 247.20788957
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+414.6868801 255.41101457 417.8118801 260.48913957 420.9368801 260.87976457 417.4212551 254.62976457 414.6868801 255.41101457
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #14" color="238,130,238">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+391.6400051 287.05163957 395.1556301 288.22351457 395.5462551 290.95788957 397.8900051 290.56726457 395.9368801 285.09851457 391.6400051 287.05163957
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+210.2087551 246.05896061 211.6487551 245.57896061 211.9687551 242.37896061 211.1687551 242.85896061 210.8487551 244.93896061 210.2087551 246.05896061
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #15" color="220,20,60">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+110.7722612 116.00841419 111.54026122 116.39241419 112.56426124 116.13641419 113.07626125 114.21641415 111.79626122 113.44841414 110.7722612 114.98441417 110.7722612 116.00841419
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #16" color="46,139,87">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+155.06026209 147.49641481 156.34026211 147.75241482 157.36426213 146.8564148 159.79626218 147.88041482 160.8202622 148.26441483 160.9482622 145.19241477 154.80426208 145.44841477 154.80426208 145.44841477 155.06026209 147.49641481
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+164.14826227 145.44841477 164.27626227 149.80041486 168.37226235 149.80041486 170.16426239 149.54441486 172.46826243 148.64841484 175.6682625 145.70441478 175.15626249 144.55241476 172.85226244 145.70441478 171.82826242 147.24041481 170.9322624 147.24041481 169.78026238 146.21641479 168.62826236 146.34441479 168.11626235 147.24041481 165.6842623 147.49641481 165.9402623 145.32041477 164.14826227 145.44841477
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #17" color="25,25,112">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+96.43626092 101.5444139 98.35626096 104.36041395 98.86826097 105.76841398 101.04426101 106.02441399 104.37226108 102.95241393 107.82826115 102.31241391 110.13226119 101.6724139 107.95626115 99.62441386 105.5242611 100.13641387 103.09226105 100.52041388 99.76426098 100.39241388 98.99626097 99.62441386 96.18026091 99.24041385 96.43626092 101.5444139
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #18" color="255,165,0">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+198.18826349 129.66369994 198.24069229 128.19569352 200.07570031 128.30055112 200.12812912 127.25197511 200.75727472 126.30825669 201.59613553 127.51411911 201.91070834 129.82098634 198.50283629 129.92584394 198.18826349 129.66369994
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+203.53600116 123.63438786 203.48357236 121.58966463 204.79429238 121.11780543 206.3147276 118.39150779 206.99630201 119.4925126 204.58457717 123.37224386 203.53600116 123.63438786
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #19" color="127,255,212">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+197.08725867 129.76855754 197.66397548 129.40155594 197.66397548 128.40540872 197.97854829 127.56654791 199.2892683 126.6228295 199.81355631 125.41696708 199.81355631 124.57810627 200.65241712 124.57810627 200.86213232 123.79167426 201.33399153 123.68681666 201.75342194 121.74695103 202.53985395 121.32752063 202.90685555 120.17408701 203.74571636 119.5449414 204.00786037 118.75850939 204.58457717 118.54879419 204.79429238 117.65750458 204.32243317 117.70993338 204.00786037 118.28665019 203.48357236 118.863367 202.64471155 119.75465661 202.12042354 120.59351742 201.49127793 121.48480703 201.07184753 123.37224386 200.49513072 124.00138946 199.49898351 124.42081987 199.0795531 126.36068549 197.61154668 127.61897671 197.13968748 129.40155594 197.08725867 129.76855754
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+  <Region name="ROI #20" color="218,112,214">
+    <GeometryDef>
+      <CoordSysStr>none</CoordSysStr>
+      <Polygon>
+        <Exterior>
+          <LinearRing>
+            <Coordinates>
+111.13688878 177.84195072 112.53688882 179.44195076 112.53688882 177.64195072 112.33688881 175.44195066 110.93688877 175.84195067 111.13688878 177.84195072
+            </Coordinates>
+          </LinearRing>
+        </Exterior>
+      </Polygon>
+    </GeometryDef>
+  </Region>
+</RegionsOfInterest>
