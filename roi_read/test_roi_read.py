@@ -1,5 +1,8 @@
+import numpy as N
 from os import path
-from shapely.geometry import shape
+from shapely.geometry import shape, Polygon, mapping
+from rasterio.features import shapes,geometry_mask
+from affine import Affine
 
 from . import get_regions
 
@@ -25,4 +28,28 @@ def test_import_roi():
     assert len(data) == 20
 
     shapes = [shape(r['geometry']) for r in data]
+
+def test_rasterize():
+    """
+    Test roundtripping from image mask to polygon
+    and back again using rasterio's built-in functions.
+    """
+    image_shape = (200,100)
+    coords = [(33,27),(50,22),(80,55)]
+    coords.append(coords[0])
+    poly = Polygon(shell=coords)
+    p = mapping(poly)
+
+    # Create initial mask
+    mask0 = geometry_mask((p,),
+        image_shape,Affine.identity(),invert=True)
+
+    m = mask0.astype(N.uint8)
+    s = [geom for geom,value in shapes(m)
+            if value == 1]
+
+    mask1 = geometry_mask(s,image_shape,Affine.identity(),invert=True)
+
+    assert mask0.sum() == mask1.sum()
+    assert N.allclose(mask0,mask1)
 
