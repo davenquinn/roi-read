@@ -37,7 +37,7 @@ def extract_geometry(geometry_def, force_multi=True):
 def extract_pixels(pixel_def, force_multi=True):
     _ = pixel_def.find('Coordinates')
     nums = (int(i) for i in _.text.strip().split())
-    idxs = N.array(list(pairs(nums)))
+    idxs = N.array([(b,a) for a,b in pairs(nums)])
     im_shape = tuple(i.max()+1 for i in idxs.T)
 
     mask = N.zeros(im_shape,dtype=N.uint8)
