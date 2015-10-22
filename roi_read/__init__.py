@@ -64,7 +64,10 @@ def get_regions(roifile):
     """
     tree = ElementTree.parse(roifile)
     for region in tree.iterfind('Region'):
-        reg = region.getchildren()[0]
+        try:
+            reg = region.getchildren()[0]
+        except IndexError:
+            continue
         if reg.tag == 'GeometryDef':
             geom = extract_geometry(reg)
         elif reg.tag == 'PixelDef':
